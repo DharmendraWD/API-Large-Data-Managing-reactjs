@@ -16,22 +16,23 @@ function App() {
   //  console.log(rawData)
   return (
     <>
-<div className="container" style={{display:'grid', gridTemplateColumns:"1fr 5fr",minWidth:"100%", }}>
+<div className="container" style={{display:'grid', gridTemplateColumns:"1fr 5fr",minWidth:"100%", height:"200vh" }}>
       <SideBar></SideBar>
  <div>
   <div style={{display:"flex", justifyContent:"space-around", alignItems:"center"}}>
      <UpperMenu></UpperMenu>
-     <UpperHeading></UpperHeading>
+     {/* <UpperHeading></UpperHeading> */}
      </div>
   <SearchBox></SearchBox>
+  <AccountGroup></AccountGroup>
 
 <routes>
   {/* <Route path='/' element={<Home></Home>}></Route> */}
  <Routes>
-        <Route
+        {/* <Route
           path="/ListReport/ListingAccountSubGroup"
           element={<AccountGroup accntGrpHeading={rawData.accntGrpHeading} />}
-        />
+        /> */}
         {/* Add more routes as needed */}
       </Routes>
 

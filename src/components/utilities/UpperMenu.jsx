@@ -40,7 +40,7 @@ margin:20px 0 0 0;
 `}
 </style>
 
-    <div className='UpperMenu flex justify-center items-center h-[60px]' style={{gap:"4px 10px", justifyContent:"center",}}>
+    <div className='UpperMenu flex justify-center items-center h-[90px]' style={{gap:"4px 10px", justifyContent:"center",}}>
 
 <div className='flex justify-left items-center' style={{gap:"4px 10px"}}>
 <IoHomeSharp className='icons'/>

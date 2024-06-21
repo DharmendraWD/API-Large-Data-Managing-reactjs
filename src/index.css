@@ -30,14 +30,20 @@ select:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 12px;
+    margin-top: 22px;
     box-shadow: 0px 0px 6px 0px #c5b9b97d;
       gap: 0 145px;
           padding: 2px 11px;
     border-radius: 11px;
+    height: 93px;
 }
 .upperHeaderParent{
       DISPLAY: FLEX;
     JUSTIFY-CONTENT: left;
     gap: 0 100px;
+    height: 90px;
+    align-items: center;
+}
+tr{
+  transition: .2s ease-in-out;
 }

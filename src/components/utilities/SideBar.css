@@ -122,3 +122,11 @@ body {
 .links .logout-link {
     margin-top: 20px;
 }
+
+.anchorlnk{
+    margin-top: 0 !important;
+    display: none;
+}
+a{
+    margin-top: 0 !important;
+}
