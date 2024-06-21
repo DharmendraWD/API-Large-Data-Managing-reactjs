@@ -47,3 +47,17 @@ select:hover{
 tr{
   transition: .2s ease-in-out;
 }
+    .showDemo{
+        margin: 0 0 12px 57px;
+    position: absolute;
+    top: 42px;
+    font-size: 15px;
+    padding: 2px 20px;
+    box-shadow: 0px 0px 6px 0px #c5b9b97d;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease-in-out;
+    text-align: left;
+  }

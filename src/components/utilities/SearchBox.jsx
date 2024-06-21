@@ -2,7 +2,9 @@ import React from 'react'
 
 
 
-function SearchBox() {
+function SearchBox({Data}) {
+
+
   return (
    <>
 <style>
@@ -28,13 +30,14 @@ function SearchBox() {
              display: flex;
     justify-content: end;
     gap: 26px 0 0 0;
-    margin: 24px 11px 0 0;
+       margin: 24px 0px 0 0;
+    width: 75vw;
              }
     `
 }
 </style>
 <div className='serchPArent'>
-   <input type="text" autocomplete="off" name="text" class="input" placeholder="Search"></input>
+   <input type="text" autocomplete="off" name="text" class="input" placeholder="Search" onChange={Data.searchHandle}></input>
    </div>
    </>
   )
