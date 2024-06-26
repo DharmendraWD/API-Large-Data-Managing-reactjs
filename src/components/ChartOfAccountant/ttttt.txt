@@ -1,0 +1,43 @@
+http://localhost:802/Api/MasterList/ListLedgers?DbName=DEMO808101&GlCode=&Catagory=&GrpCode=&SGrpCode=&BranchCode=
+
+% TO MAKE STICKY 
+.table-container {
+      max-width: 100%;
+      overflow-x: auto;
+    }
+    th {
+      padding: 8px; /* Adjust padding as needed */
+      background-color: #f2f2f2; /* Example background color */
+      border: 1px solid #ddd; /* Example border */
+      position: -webkit-sticky; /* For Safari */
+      position: sticky;
+      top: 0;
+    }
+
+
+
+    % to get keys 
+    // let arr = [
+//     {
+//         "GlCode": "170",
+//         GlDesc: "aaaaaaaa",
+//         GlShortName: "aa00001",
+//         PanNo: "",
+//         Catagory: "Customer",
+//     }, 
+//     {
+//         "GlCode": "170",
+//         GlDesc: "aaaaaaaa",
+//         GlShortName: "aa00001",
+//         PanNo: "",
+//         Catagory: "Customer",
+//     }
+// ];
+
+// Get the keys of the first object (arr[0])
+let keysOfFirstObject = Object.keys(Data.tableData[0]);
+
+// Print the keys
+keysOfFirstObject.forEach(key => {
+    console.log(key);
+});

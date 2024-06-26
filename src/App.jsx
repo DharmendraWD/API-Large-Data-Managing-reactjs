@@ -1,12 +1,8 @@
 import React from 'react'
 import SideBar from './components/utilities/SideBar'
 import UpperMenu from './components/utilities/UpperMenu.jsx'
-import { BsDisplay } from 'react-icons/bs'
-import UpperHeading from './components/utilities/UpperHeading.jsx'
 import AccountGroup from './components/ChartOfAccountant/AccountGroup.jsx'
-import {Link, Routes, Route} from "react-router-dom";
-import SearchBox from './components/utilities/SearchBox.jsx'
-
+import { Routes, Route} from "react-router-dom";
 import { useContext } from 'react'
 import { data } from './components/context/Context'
 
@@ -26,21 +22,14 @@ function App() {
      <UpperMenu></UpperMenu>
      </div>
  
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam necessitatibus autem nemo praesentium asperiores deserunt laudantium odit ipsum porro sed!</p>
 
-<routes>
  <Routes>
         <Route
-          path="/ListReport/ListingAccountGroup"
+          path="/"
           element={<AccountGroup Data={Data} />}
           />
-        {/* Add more routes as needed */}
-          {/* <Route path='/' element={<Home></Home>}></Route> */}
       </Routes>
-
-
-
-</routes>
-
  </div>
 </div>
     </>

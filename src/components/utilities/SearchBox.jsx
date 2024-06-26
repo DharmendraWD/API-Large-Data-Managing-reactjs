@@ -4,7 +4,6 @@ import React from 'react'
 
 function SearchBox({Data}) {
 
-
   return (
    <>
 <style>
@@ -37,7 +36,7 @@ function SearchBox({Data}) {
 }
 </style>
 <div className='serchPArent'>
-   <input type="text" autocomplete="off" name="text" class="input" placeholder="Search" onChange={Data.searchHandle}></input>
+   <input type="text" onChange={Data.searchHandle} autocomplete="off" name="text" class="input" style={{height:"31px"}} placeholder="Search" ></input>
    </div>
    </>
   )

@@ -24,7 +24,9 @@ select:hover{
   scale: 1.2;
 }
 
-
+.container{
+  overflow: hidden;
+}
 /* HEADING  */
 .upperHeaderWrapper{
     display: flex;
